@@ -7,20 +7,116 @@
   </head>
 
   <body>
-    <div>
-      <div>x</div>
+    <div style="width: 100%; display: inline-block; font-family: Arial, Helvetica, sans-serif">
+      <img style="width: 30px; float: right; margin: 30px" src="./img/close.png" alt="" />
     </div>
 
-    <div>
-      <img src="./img/labirintas.jpg" alt="" />
-      <div>
-        <h1>404 - not found</h1>
-        <p>Look like you are in a maze.</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint,
-          provident sapiente doloribus tempora quis aperiam.
-        </p>
+    <div style="display: inline-block; width: 46%; margin-left: 27%; margin-top: 50px">
+      <img style="width: 40%; float: left" src="./img/labirintas.webp" alt="" />
+      <div style="width: 50%; float: left; margin-left: 10%">
+        <h1 style="font-size: 170px; margin: 0; color: green">404</h1>
+        <p style="line-height: 1.2em; font-size: 24px; color: green">Look like you are in a maze.</p>
+        <p style="line-height: 1.2em; font-size: 22px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, provident sapiente doloribus tempora quis aperiam.</p>
+        <a style="box-shadow: 0 5px 9px 2px rgba(97, 174, 79, 0.4); display: inline-block; padding: 20px; padding-left: 40px; padding-right: 40px; background-color: #61ae4f; color: #fff; text-decoration: none; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px" href="#">go back home</a>
       </div>
     </div>
   </body>
 </html>
+
+<!-- 
+
+px - (absoliutus) primityviausias matavimo vienetas
+% - reliatyvus
+em - proporcingas to paties elemento font-size
+1em = 100% = ???px
+
+Tekstines stiliaus savybes paveldimos
+
+background-color: red;    // fono spalva
+corlor: red;              // teksto spalva
+
+font-size: 100px;         // srifto dydis
+font-family: arial;       // stifto stilius
+font-weight: bold;         // 700
+font-weight: normal;       // 400
+font-weight: 100...900;
+font-style: italic;
+text-decoration: underline;
+line-height: 30px;         // eilutes aukstis, defalt = 116px
+- galima irasyti koeficienta pvz.2, 
+padidins eilute 2 kartus daugiau nei srifto dydis
+- jei 1, tai elutes dydis bus 1:1 font-size
+- matavimo vinetas em: proporcingas srifto dydziui
+
+
+width: 200px;
+width: 30%;                 
+
+elementu atvaizdavimo budai
+display: block;              // default, elementai deliojami vertikaliai
+display: inline;             // img.tag elgiasi kaip tekstas,
+                             // deliojasi i eile
+display: none;               // elementas nerodomas
+display: inline-block;       // mix tarp block ir inline,
+                             // priversti elementus gultis vienas salia kito
+
+float: left;                 // priverstinis elemento statymas horizontaliai             
+float: right;                // del jo dingsta tevinio elemento spalva,
+- kai ant visu vaiku elementu uzdedamas float, 
+tevinis elementas praranda auksti
+- tam kad griztu tevinio elemento spalva: 
+ant jo uzrasyti display: inline-block
+- sitas metodas sutaiso float'o sukeliama problema
+- tevinis elementas turi tureti width: 100%
+
+margin: 0;                   //atstumas iki aplinkiniu elementu visomis kryptimis
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+
+padding: 0;                   //atstumas visomis kryptimis nuo elemento turinio iki to paties elemento krastu
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+eiliskumas svarbus - panaudoja paskutini uzrasyma
+
+box-shadow 0 0 0 
+- pirmas skaicius judina seseli horizontaliai:
+teigiami skaiciai (10px) i desine
+neigiami skaiciai(-10px) i kaire
+- antras skaicius judina vertikaliai:
+teigiami skaiciai (10px) i apacia
+neigiami skaiciai(-10px) i virsu
+- trecias skaicius iblurina seseli
+ketvirtas skaicius ura seselio padding'as
+- gali buti minusinis (palenda po elementu)
+
+
+
+height: 100px;               // nurodoma su absoliutine reiksme
+
+.jpg formatas yra nepermatomas;
+rgba a - alfakanalas (0-1 imtinai) spalvos permatomumas
+pvz.: 0.5 pusiau permatoma spalva
+Hex(sesioliktainis spalvos kodas) iskaidytas i 3 dalis
+uzrasomas su #
+- 61AE4F
+61 - r
+AE - g
+4F - b
+
+<button> mygtukas;
+<button type="button"> - paprastas mygtukas;
+<button type="submit"> - 
+<button type="reset"> - 
+i ji galima ideti teksta, nuorauka ar bet koki HTML elementa
+stilizuojamas su CSS
+veikia su javaScript
+
+<a> - hiperlink'o sukurimas
+- href=""  butinas atributas, nurodantis adresa, kur veda link'as
+jeigu nuorodos del vaizdo ir techniskai neturi veikti, idedamas # simbolis
+
+-->
