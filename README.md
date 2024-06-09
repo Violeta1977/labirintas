@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/50-grupe-labirintas/
+Site published at: https://github.com/Violeta1977/labirintas
 
 Design: [Labirintas](https://dribbble.com/shots/2537184-Day-008-404-Page-Daily-UI)
 
@@ -67,7 +67,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Violeta: [Github](https://github.com/Violeta1977)
 
 ## ⚠️ License
 
